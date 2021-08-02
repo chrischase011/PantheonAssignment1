@@ -15,11 +15,7 @@ Class URLParser
             return 1;
         }
         else
-            return new Exception("Invalid URL parameter");
-    }
-    function homeIndex($url = "home")
-    {
-        return hash('md5', $url);
+            return 404;
     }
 }
 

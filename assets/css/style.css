@@ -14,3 +14,56 @@
     margin-right:auto;
     content: "Loading";
 }
+
+.bg-img
+{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://media.istockphoto.com/photos/colorful-background-picture-id1280385511?b=1&k=6&m=1280385511&s=170667a&w=0&h=ZcRySFSJcU5J7hF3KnBdj6LZJkNh1BaZS3F6mevYITg=');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.navbar-brand-txt
+{
+    font-family: "Consolas", monospace;
+}
+#reveal1 
+{
+	opacity: 0;
+	transform: scale(0.9);
+    transition: all 1s ease-in-out;
+}
+#reveal1.visible
+{
+	opacity: 1;
+	transform: none;
+}
+
+#reveal2 
+{
+	opacity: 0;
+	transform: scale(0.9);
+    transition: all 1s ease-in-out;
+}
+#reveal2.visible
+{
+	opacity: 1;
+	transform: none;
+}
+
+/* Other Info */
+
+.card .info
+{
+    position:absolute;
+    padding: 60px 30px;
+    display:none;
+    color:white;
+    width: 100%;
+    height:100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+.card:hover .info
+{
+    transition: 1s;
+    display:block;
+}
