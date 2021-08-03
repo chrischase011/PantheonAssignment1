@@ -66,6 +66,7 @@ function toggleMode()
         $('body').addClass('bg-dark');
         $('#togIcon').removeClass('fa-moon').addClass('fa-lightbulb');
         $('#togBtn').removeClass('btn-dark').addClass('btn-light');
+        $('#togBtn').attr('title','Light Mode');
     }
     if(togVal == "1")
     {
@@ -73,6 +74,7 @@ function toggleMode()
         $('body').removeClass('bg-dark');
         $('#togIcon').removeClass('fa-lightbulb').addClass('fa-moon');
         $('#togBtn').removeClass('btn-light').addClass('btn-dark');
+        $('#togBtn').attr('title','Dark Mode');
     }
 
 }
