@@ -3,7 +3,7 @@
 Class URLParser
 {
     // Check if URL is valid
-    function checkURL($url)
+    public function checkURL($url)
     {
         $pages = array("home","link1");
         if(hash('md5',$pages[0]) == $url)
@@ -19,13 +19,37 @@ Class URLParser
     }
 }
 
+// Class to control the routes
 Class Controller
 {
-    function homeIndex($url = "home")
+    public function homeIndex($url = "home")
     {
         return hash('md5', $url);
     }
 }
 
+// Class for database config for mysql
+/*
+Class DBConfig
+{
+    function connect($db_host, $db_user,$db_pass,$db_name)
+    {
+        $conn = mysqli_connect($db_host,$db_user,$db_pass,$db_name);
+        if(!$conn)
+        {
+            return $conn->error;
+        }
+        else
+        {
+            echo "Connected";
+        }
+
+        return $conn;
+    }
+
+}
+*/
+
 $parser = new URLParser();
 $route = new Controller();
+//$db = new DBConfig();

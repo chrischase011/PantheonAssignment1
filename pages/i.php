@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/all.min.css">
+    <script type="text/javascript" src="../assets/js/all.min.js"></script>
     <title>Chase - Personal Information</title>
 </head>
 <body>
@@ -23,7 +25,7 @@
             include('404.php');
         }
     ?>
-    <br><br><br><br>
+   
 </body>
 <script src="../assets/js/jquery-3.5.1.min.js"></script>
 <script src="../assets/js/bootstrap.min.js"></script>

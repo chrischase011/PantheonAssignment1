@@ -1,6 +1,7 @@
 <!-- Header Section -->
 <?php //include('layout/header.php'); ?>
 <!-- Body Section -->
+<button class="position-fixed btn btn-dark" style="right:5px;" id="togBtn" onclick="toggleMode()" data-value="0" title="Dark Mode"><i id="togIcon" class="fa fa-moon"></i></button>
 <div class="container my-2">
     <!-- Jumbotron -->
    <div class="jumbotron bg-dark bg-img">
@@ -96,18 +97,55 @@
         </div>
         <div class="col-12 col-sm-12 col-md-6 col-lg-6">
             <div class="card bg-primary" style="max-height:376.58px;">
-                <img src=""
+                <img src="https://www.pngitem.com/pimgs/m/172-1727941_cross-roman-catholic-hd-png-download.png"
                     class="card-img-top" style="width:540px;max-height:375px;">
-                <div class="bday-info">
-                    <h4 class="text-center">He was born on <b>July 11, 1997</b></h4><br>
+                <div class="info">
+                    <h4 class="text-center">He is a <b>Roman Catholic</b></h4><br>
                     <p class="card-text text-center">
-                        <b>Christopher Robin Chase</b> is 24 years old today and still doing his best to 
-                        graduate in college. By the way, he is <i>Year of the Ox.</i> &#128516;
+                        <b>Christopher Robin Chase</b> was baptized as a Roman Catholic.  
+                </div>
+            </div>  
+        </div>
+   </div>
+   <div class="row py-2">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="card" style="max-height:376.58px;">
+                <img src="https://toppng.com/uploads/preview/fire-guitar-light-wallpaper-11555109664wro79sflpy.jpg" class="card-img-top" 
+                style="width:540px;max-height:375px;">
+                <div class="info">
+                    <h4 class="text-center">He is a <b>Guitar</b> player</h4><br>
+                    <p class="card-text text-center">
+                        <b>Christopher Robin Chase</b> plays a guitar. His genre are mostly metal, rock and other sub-genres of metal and hardcore punk. He is also the lead guitarist of UMak Jammers, an organization founded by <i>CCA</i> in University of Makati.
                     </p>
                 </div>
             </div>
-            
         </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="card bg-primary" style="max-height:376.58px;">
+                <img src="https://pbs.twimg.com/media/Ao9nMJJCQAAuzcM.jpg"
+                    class="card-img-top" style="width:540px;height: 375px;max-height:375px;">
+                <div class="info">
+                    <h4 class="text-center">A proud <b>Heron</b></h4><br>
+                    <p class="card-text text-center">
+                        Yes! <b>Christopher Robin Chase</b> is a Heron. He is a University of Makati student and now an incoming 4<sup>th</sup> year college. 
+                    </p>
+                </div>
+            </div>  
+        </div>
+   </div>
+   <div class="row py-2">
+       <div class="col-12">
+           <div class="card bg-dark">
+               <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" class="card-img-top w-100" style="height:400px;">
+               <div class="info">
+                   <h4 class="text-center my-4">A Developer</h4>
+                    <p class="card-text text-center">
+                        <b>Christopher Robin Chase</b> loves to code, especially on Back-end Web Development where he mostly code the core functionalities of the website. PHP is his most used tool for server-side programming language and now using the Laravel PHP framework for most of his projects. He loves to code games to where he mostly uses Unity and C#. He wants to be a Software Engineer someday once he graduates.
+                    </p>
+               </div>
+           </div>
+       </div>
    </div>
 </div>
 </div>
+<?php include('layout/footer.php'); ?>

@@ -36,7 +36,7 @@ var controller = new ScrollMagic.Controller();
 new ScrollMagic.Scene({
     triggerElement: "#trigger1",
     triggerHook: 0.6, 
-    duration: "80%",
+    duration: "100%",
     offset: 50 
 })
 .setClassToggle("#reveal1", "visible")
@@ -46,7 +46,7 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
     triggerElement: "#trigger2",
     triggerHook: 0.3, 
-    duration: "150%",
+    duration: "240%",
     offset: 0 
 })
 .setClassToggle("#reveal2", "visible") 
@@ -56,3 +56,23 @@ new ScrollMagic.Scene({
 //controller.addScene();
 
 /* Custom Functions */
+
+function toggleMode()
+{
+    var togVal = $('#togBtn').data('value');
+    if(togVal == "0")
+    {
+        $('#togBtn').data('value',"1");
+        $('body').addClass('bg-dark');
+        $('#togIcon').removeClass('fa-moon').addClass('fa-lightbulb');
+        $('#togBtn').removeClass('btn-dark').addClass('btn-light');
+    }
+    if(togVal == "1")
+    {
+        $('#togBtn').data('value',"0");
+        $('body').removeClass('bg-dark');
+        $('#togIcon').removeClass('fa-lightbulb').addClass('fa-moon');
+        $('#togBtn').removeClass('btn-light').addClass('btn-dark');
+    }
+
+}
