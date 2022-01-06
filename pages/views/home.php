@@ -12,7 +12,7 @@
            </div>
            <div class="col-12 col-sm-12 col-md-6 col-lg-9">
                <div class="clearfix my-5 text-white">
-                    <h1 class="text-capitalize text-center" style="font-size:3.5em;">Christopher Robin Chase</h1>
+                    <h1 class="text-capitalize text-center" style="font-size:3.5em;">Christopher Robin</h1>
                     <h1 class="text-monospace text-center" id="typed-pos"></h1>
                </div>
            </div>
