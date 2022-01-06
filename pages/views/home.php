@@ -30,7 +30,7 @@
                     <div class="row">
                         <div class="col-12 col-md-12 p-5">
                                 <blockquote class="blockquote text-justify">
-                                    <b>Christopher Robin Chase</b> is a Computer Science student from University
+                                    <b>Christopher Robin</b> is a Computer Science student from University
                                     of Makati. He really loves programming especially on <i>Back-end Programming</i>.
                                     He is also a <i>Game Developer</i> and currently working on his Game thesis on his
                                     4<sup>th</sup> year in college. Christopher Robin Chase loves to program in 
@@ -57,7 +57,7 @@
                 <div class="info">
                     <h4 class="text-center">He lives at <b>Makati City</b></h4><br>
                     <p class="card-text text-center">
-                        <b>Christopher Robin Chase</b> grew up in Makati City and currently lives at <i>
+                        <b>Christopher Robin</b> grew up in Makati City and currently lives at <i>
                             Barangay Rizal, Makati City</i>. He was raised by his grandparents on his mother side
                             here in Makati City.
 
@@ -72,7 +72,7 @@
                 <div class="info">
                     <h4 class="text-center">He was born on <b>July 11, 1997</b></h4><br>
                     <p class="card-text text-center">
-                        <b>Christopher Robin Chase</b> is 24 years old today and still doing his best to 
+                        <b>Christopher Robin</b> is 24 years old today and still doing his best to 
                         graduate in college. By the way, he is <i>Year of the Ox.</i> &#128516;
                     </p>
                 </div>
@@ -102,7 +102,7 @@
                 <div class="info">
                     <h4 class="text-center">He is a <b>Roman Catholic</b></h4><br>
                     <p class="card-text text-center">
-                        <b>Christopher Robin Chase</b> was baptized as a Roman Catholic.  
+                        <b>Christopher Robin</b> was baptized as a Roman Catholic.  
                 </div>
             </div>  
         </div>
@@ -115,7 +115,7 @@
                 <div class="info">
                     <h4 class="text-center">He is a <b>Guitar</b> player</h4><br>
                     <p class="card-text text-center">
-                        <b>Christopher Robin Chase</b> plays a guitar. His genre are mostly metal, rock and other sub-genres of metal and hardcore punk. He is also the lead guitarist of UMak Jammers, an organization founded by <i>CCA</i> in University of Makati.
+                        <b>Christopher Robin</b> plays a guitar. His genre are mostly metal, rock and other sub-genres of metal and hardcore punk. He is also the lead guitarist of UMak Jammers, an organization founded by <i>CCA</i> in University of Makati.
                     </p>
                 </div>
             </div>
@@ -127,7 +127,7 @@
                 <div class="info">
                     <h4 class="text-center">A proud <b>Heron</b></h4><br>
                     <p class="card-text text-center">
-                        Yes! <b>Christopher Robin Chase</b> is a Heron. He is a University of Makati student and now an incoming 4<sup>th</sup> year college. 
+                        Yes! <b>Christopher Robin</b> is a Heron. He is a University of Makati student and now an incoming 4<sup>th</sup> year college. 
                     </p>
                 </div>
             </div>  
@@ -140,7 +140,7 @@
                <div class="info">
                    <h4 class="text-center my-4">A Developer</h4>
                     <p class="card-text text-center">
-                        <b>Christopher Robin Chase</b> loves to code, especially on Back-end Web Development where he mostly code the core functionalities of the website. PHP is his most used tool for server-side programming language and now using the Laravel PHP framework for most of his projects. He loves to code games to where he mostly uses Unity and C#. He wants to be a Software Engineer someday once he graduates.
+                        <b>Christopher Robin</b> loves to code, especially on Back-end Web Development where he mostly code the core functionalities of the website. PHP is his most used tool for server-side programming language and now using the Laravel PHP framework for most of his projects. He loves to code games to where he mostly uses Unity and C#. He wants to be a Software Engineer someday once he graduates.
                     </p>
                </div>
            </div>
